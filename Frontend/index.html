@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>Wetter</title>
+
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="/js/queryOpenWeatherMap.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Aktuelle Wetterinformationen</h1>
+  </header>
+
+  
+
+  <div id="searchCity">
+    <h2 id="h2CityName">Stadtnamen eingeben</h2>
+    <input type="text" id="inputCity" placeholder="Stadtname">
+    <button id="buttonCity">Stadt suchen</button>
+
+  </div>
+  
+  <h2 id="h2Weather">Aktuelle Wetterlage in <span id="city">--</span></h2>
+  <div id="weather">
+    <div id="weatherData" class="innerDiv">
+      <p>Temperatur: <span id="temperature">--</span></p>
+      <p>Luftdruck: <span id="pressure">--</span></p>
+      <p>Feuchtigkeit: <span id="humidity">--</span></p>
+      <p>geringste Temperatur: <span id="temperatureMin">--</span></p>
+      <p>höchste Temperatur: <span id="temperatureMax">--</span></p>
+      <p>Windgeschwindigkeit: <span id="windSpeed">--</span></p>
+      <p>Windrichtung: <span id="windDirection">--</span></p>
+    </div>
+
+    <div id="weatherInfo" class="innerDiv">
+      <img id="weatherIcon" src="" alt="Weather Icon">
+      <p><span id="cloudCoverCondition">--</span></p>
+    </div>
+  </div>
+
+  <footer>
+
+  </footer>
+
+</body>
+</html>

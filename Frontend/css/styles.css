@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #d9d9d9;
+    text-align: center;
+}
+
+header{
+    background-color: #38a3f3;
+    color: white;
+    padding: 10px;
+    /* box-sizing: initial; */
+    /* font-weight: normal; */
+    text-align: center;
+    
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #38a3f3;
+    height: 40px;
+}
+
+button{
+    background-color: #38a3f3;
+    color: white;
+    border: 0;
+}
+
+#searchCity{
+    text-align: center;
+}
+
+#h2CityName{
+    color: #007ffe;
+}
+
+#h2Weather{
+    text-align: center;
+}
+
+#weather {
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    display: flex; /* Use flexbox */
+    justify-content: space-between;
+}
+
+.innerDiv{
+    flex: 1; 
+    /* border: 1px solid black; */
+    padding: 10px;
+    text-align: left;
+}
+
+#weatherData p {
+    /* margin: 5px 0; */
+    font-weight: bold;
+}
+
+#weatherData span {
+    font-weight: normal;
+    /* color: blue; */
+}
+
+
